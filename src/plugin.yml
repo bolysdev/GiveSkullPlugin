@@ -1,0 +1,21 @@
+name: GiveSkullPlugin
+version: 1.1
+main: skullplugin.main.SkullMain
+api-version: 1.21
+author: CursorKZ (https://github.com/cursorkz/GiveSkullPlugin)
+description: Плагин для выдачи головы игроков
+
+commands:
+  skull:
+    description: Получить голову игрока
+  language:
+    description: Изменить язык плагина
+    usage: /language [язык]
+
+permissions:
+  skull.give:
+    description: Разрешение на получение голов
+    default: op
+  skull.language:
+    description: Разрешение на изменение языка
+    default: op
