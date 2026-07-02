@@ -2,7 +2,7 @@ name: GiveSkullPlugin
 version: 1.1
 main: skullplugin.main.SkullMain
 api-version: 1.21
-author: CursorKZ (https://github.com/cursorkz/GiveSkullPlugin)
+author: Bolysdev (https://github.com/bolysdev/GiveSkullPlugin)
 description: Плагин для выдачи головы игроков
 
 commands:
